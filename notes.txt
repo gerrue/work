@@ -1,0 +1,45 @@
+Software requirements:
+  - docker - Set Up
+  - docker-compose - Set Up
+  - github - Good
+  - cloudfoundry cli - Set Up
+
+Stack
+  - node - Can Do
+  - react - Can Do
+  - redux
+  - postgresql - Good
+  - OAuth2 - Can Figure Out
+  - es lint - Can Do
+  - ES6 - Relearning
+  - webpack - Can Do
+  - redis
+  - jest
+
+
+Import Links
+  - http://apphub.apps.ge.com/
+  - QA: 
+    - https://apphub-site-app.run.asv-pr.ice.predix.io/
+  - AppHub api reference:
+    - https://apphub-api-docs.run.asv-pr.ice.predix.io/
+  - Cody's webex meeting room: 
+    - http://sc.ge.com/**cody
+  - Our project confluence docs: 
+    - https://devcloud.swcoe.ge.com/devspace/display/HWZMY/AppHub
+  - Our rally: 
+    - https://rally1.rallydev.com/#/66304911248d/iterationstatus
+  - employee info: 
+    - employeeprofile.ge.com
+  - github:
+    - https://github.build.ge.com/AppHub
+  - Predix: 
+    - https://login.system.asv-pr.ice.predix.io/login
+
+
+With problems installing on apt-get
+  - Open file /etc/apt/apt.conf
+  - Make sure folling is in the file
+
+      Acquire::http::Proxy "http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80";
+      Acquire::https::Proxy "http://PITC-Zscaler-Americas-Cincinnati3PR.proxy.corporate.ge.com:80";
